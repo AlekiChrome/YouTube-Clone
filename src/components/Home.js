@@ -34,7 +34,6 @@ export default class Home extends Component {
         <div className="v-player">
           <p className="v-player-text">Search for video</p>
           <h1>Welcome to CandyKat</h1>
-
           <VideoData
             base
             target="_blank"
@@ -46,6 +45,7 @@ export default class Home extends Component {
           {/* <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} /> */}
           </div>
         </div>
+ master
     );
   }
 }
