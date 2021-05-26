@@ -45,7 +45,6 @@ export default class Home extends Component {
           {/* <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} /> */}
           </div>
         </div>
- master
     );
   }
 }
