@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import YouTube from "react-youtube";
-import CK from "./CK.gif";
+// import CK from "./CK.gif";
 
 
 class Videoplayer extends Component {
@@ -18,26 +18,12 @@ class Videoplayer extends Component {
       },
     };
 
-
-    const {videoId} = this.props
-    //   if (!videoId) {
-    //     return (
-    //       <div className="v-player">
-    //          <p className="v-player-text">
-    //           Search for video
-    //         </p>
-    //         <h1>Welcome to CandyKat</h1>
-    //         <img src={CK} />
-
-    //       </div>
-    //     )
-    //   }
-
-    return <YouTube
-            videoId={videoId}
+    return  <YouTube
+            videoId={this.props.match.params.id}
             opts={opts}
             videoOnReady={this.videoOnReady}
           />;
+
 
   }
 }

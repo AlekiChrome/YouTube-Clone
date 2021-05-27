@@ -2,9 +2,8 @@ import Header from "./components/Header";
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import About from './components/About';
-import Home from "./components/Home";
-import Play from "./components/Play";
-import React from 'react';
+import Homer from "./components/Homer";
+import VideoPlayer from "./components/VideoPlayer";
 
 
 function App() {
@@ -14,9 +13,9 @@ function App() {
           <Header />
           </div>
           <Switch>
-            <Route exact path = "/" component={Home}/>
-            <Route path= "/video/:id" component={Play}/>
+            <Route exact path = "/" component={Homer}/>
             <Route path= "/About" component={About} />
+            <Route path= "/video/:id" component={VideoPlayer}/>
           </Switch>
           </div>
   )

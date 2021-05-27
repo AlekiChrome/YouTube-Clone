@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import katcandypile from "./katcandypile.png"
 import "./About.css";
 
@@ -27,9 +27,9 @@ const About = () => {
       <div className="about-bio">
 
 
-        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker.gif?width=450&height=278&crop=fill"></img>
-        <a href="https://alekichrome.github.io/" target="_blank">
-          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/47721785?v=4"></img>
+        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker.gif?width=450&height=278&crop=fill" alt="candy"></img>
+        <a href="https://alekichrome.github.io/" target="_blank" rel="noreferrer">
+          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/47721785?v=4" alt="git-hub-icon"></img>
 
         </a>
         <h3>I'm leaning on a fence between past and present tense</h3>
@@ -39,9 +39,9 @@ const About = () => {
 
       <div className="about-bio">
 
-        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker_(1).gif?width=1920&height=1080&fit=bounds"></img>
-        <a href="https://kathypurry.github.io/" target="_blank">
-          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/21033013?v=4"></img>
+        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker_(1).gif?width=1920&height=1080&fit=bounds" alt=""></img>
+        <a href="https://kathypurry.github.io/" target="_blank" rel="noreferrer">
+          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/21033013?v=4" alt="git-hub-icon"></img>
 
         </a>
 
